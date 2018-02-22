@@ -1,0 +1,156 @@
+body {
+	background: url(Images/packers-wallpaper-7.jpg);
+	height:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+a {
+	color: #FFB81C;
+}
+
+a:hover{
+	color: darkgreen;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #FFB81C;
+  font-family: Arial;
+  font-weight: 900;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  font-weight: 900;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkgreen;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  background-color: #FFB81C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+}
+
+.navbar .active{
+	background: url(Images/John-Favre-Jovi.jpg)
+}
+
+/* Dropdown button */
+.dropdown2 .dropbtn2 {
+  font-size: 16px;
+  font-weight: 900;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+  background-color: darkgreen;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content2 {
+  display: none;
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  background-color: #FFB81C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content2 a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.PUBG a {
+	position: relative;
+	top: 180px;
+	left: -200px;
+	transform: translate(-50%, -50%);
+}
